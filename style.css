@@ -71,4 +71,11 @@ article {
   .text {
     font-size: 1rem;
   }
+  .palestrantes {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    grid-gap: 10px;
+  }
 }
