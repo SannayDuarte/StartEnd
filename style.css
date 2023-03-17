@@ -1,0 +1,45 @@
+body {
+  background: url(galaxia.jpg) no-repeat center center/cover;
+  color: black;
+  background-color: rgba(54, 53, 53, 0.301);
+  height: 100vh;
+  margin: 0;
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+}
+.logotipo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  padding: 30px;
+  width: 50rem;
+  height: 25rem;
+}
+.titulo {
+  font-size: 1.5rem;
+}
+.text {
+  font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    padding: 30px;
+    width: 20rem;
+    height: 15rem;
+  }
+  .titulo {
+    font-size: 1.1rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
+}
