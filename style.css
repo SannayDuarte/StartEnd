@@ -64,6 +64,11 @@ article {
 .localiza {
   display: grid;
   grid-template-columns: auto auto;
+  padding: 20px;
+}
+.dadosLocal {
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 500px) {
