@@ -5,7 +5,10 @@ body {
   height: 100%;
   margin: 0;
 }
-h2,
+h2 {
+  color: white;
+  text-align: center;
+}
 h3,
 h4,
 h5,
@@ -53,7 +56,14 @@ article {
 }
 .card {
   width: 20rem;
-  height: 25rem;
+  height: 28rem;
+}
+.img-pales {
+  height: 18rem;
+}
+.localiza {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 @media (max-width: 500px) {
