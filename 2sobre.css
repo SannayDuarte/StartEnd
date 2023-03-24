@@ -1,0 +1,33 @@
+body {
+  background: url(plan.png) no-repeat center center/cover;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.507);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  color: white;
+}
+.logotipo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  padding: 30px;
+  width: 50rem;
+  height: 25rem;
+}
+
+@media (max-width: 500px) {
+}
