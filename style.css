@@ -6,10 +6,12 @@ body {
   width: 100%;
   margin: 0;
 }
-
-h2 {
-  color: white;
-  text-align: center;
+.nav {
+  background-color: black;
+}
+#logo {
+  width: 10rem;
+  height: 4rem;
 }
 h3,
 h4,
@@ -20,22 +22,9 @@ li,
 .nav-link {
   color: white;
 }
-.nav {
-  background-color: black;
-}
-#logo {
-  width: 10rem;
-  height: 4rem;
-}
-.logotipo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo {
-  padding: 30px;
-  width: 50rem;
-  height: 25rem;
+h2 {
+  color: white;
+  text-align: center;
 }
 
 @media (max-width: 500px) {

@@ -1,0 +1,31 @@
+body {
+  background: url(imgs/plan.png) no-repeat center center/cover;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.507);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.nav {
+  background-color: black;
+}
+#logo {
+  width: 10rem;
+  height: 4rem;
+}
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+.nav-link {
+  color: white;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+}
