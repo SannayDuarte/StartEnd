@@ -43,40 +43,81 @@
         </ul>
       </div>
     </nav>
+    <aside class="detalhes container">
+      <div class="entrada">
+        <article class="intro">
+          <h2>Experiência de três dias com palestras,<br>atividades e workshops.</h2>
+          <p class="introducao">
+            O objetivo deste evento é reunir entusiastas<br />
+            nos campos de inovação e de tecnologia, <br />
+            áreas essas criadas nas missões espaciais <br />
+            da NASA, apresentando uma reflexão sobre <br />
+            as profissões do futuro e o mercado de trabalho.
+          </p>
+        </article>
+        <div class="astrounauta">
+          <img class="astrounaut pulsate-bck" src="imgs/astrou.png" />
+        </div>
+      </div>
+      <div class="conometro">
+        <h2>Contagem Regressiva Para o Evento</h2>
+        <div class="countdown container">
+          <div class="time">
+            <p>Dias</p>
+            <h3 id="days">00</h3>
+          </div>
+          <div class="time">
+            <p>Horas</p>
+            <h3 id="hours">00</h3>
+          </div>
+          <div class="time">
+            <p>Minutos</p>
+            <h3 id="minutes">00</h3>
+          </div>
+          <div class="time">
+            <p>Segundos</p>
+            <h3 id="seconds">00</h3>
+          </div>
+        </div>
+      </div>
+    </aside>
   </header>
   <!--NAVBAR-->
 
 
 
   <!--RODAPÉ-->
-  <footer class="footer nav">
-    <address class="nav justify-content-between container">
-      <div class="col-6 col-sm-5 col-lg-4">
-        <h6 class="tx-cinzae">
-          Centrais de atendimento</h6>
-        <ul class="nav flex-column">
-          <li>Bairro ------</li>
-          <li>Manaus-Amazonas</li>
-          <li>Brasil</li>
-        </ul>
+  <footer class="footer ">
+    <div class="nav">
+      <address class="nav justify-content-between container">
+        <div class="col-6 col-sm-5 col-lg-4">
+          <h6 class="tx-cinzae">
+            Centrais de atendimento</h6>
+          <ul class="nav flex-column">
+            <li>Bairro ------</li>
+            <li>Manaus-Amazonas</li>
+            <li>Brasil</li>
+          </ul>
+        </div>
+        <div class="col-6 col-sm-5 col-lg-4">
+          <form>
+            <h6>Deixe seu email para receber nossas atualizaçoes!</h6>
+            <div class="d-flex w-100 gap-2">
+              <input id="newsletter1" type="text" class="form-control" placeholder="Digite seu email">
+              <button class="btn btn-light" type="button"><a href="mailto:startendexp@gmail.com">Inscrever</a></button>
+            </div>
+          </form>
+        </div>
+      </address>
+      <div class="row container">
+        <p class="m-0 text-center">© 2023
+          Desenvolvido por Sannay Duarte.
+        </p>
       </div>
-      <div class="col-6 col-sm-5 col-lg-4">
-        <form>
-          <h6>Deixe seu email para receber nossas atualizaçoes!</h6>
-          <div class="d-flex w-100 gap-2">
-            <input id="newsletter1" type="text" class="form-control" placeholder="Digite seu email">
-            <button class="btn btn-light" type="button"><a href="mailto:startendexp@gmail.com">Inscrever</a></button>
-          </div>
-        </form>
-      </div>
-    </address>
-    <div class="row container">
-      <p class="m-0 text-center">© 2023
-        Desenvolvido por Sannay Duarte.
-      </p>
     </div>
   </footer>
   <!--RODAPÉ-->
+  <script src="couwt.js"></script>
   <script>
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
