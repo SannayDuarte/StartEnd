@@ -14,34 +14,74 @@
 <body>
   <!--NAVBAR-->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Start_End_Experience</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg nav">
+      <div class=" container-fluid">
+        <img id="logo" src="imgs/start.jpg" />
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Fazer_Inscriçao</a>
+            <a class="nav-link" aria-current="page" href="2sobre.html">Sobre_Nos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Gamer_StartEnd</a>
+            <a class="nav-link active" aria-current="page" href="3programa.html">Programação</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Sobre_Nos</a>
+            <a class="nav-link active" aria-current="page" href="4inscricao.html">Fazer_Inscriçao</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Conheça_Nossos_Projetos</a>
+            <a class="nav-link" aria-current="page" href="5projetos.html">Conheça_Nossos_Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="6gamer.html">Gamer_StartEnd</a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="logotipo">
-      <img class="logo" alt="StartEnd Logotipo" src="StartEnd Logotipo.png" />
-    </div>
+    <aside class="detalhes container">
+      <div class="entrada">
+        <article class="intro">
+          <h2>Experiência de três dias com palestras,<br>atividades e workshops.</h2>
+          <p class="introducao">
+            O objetivo deste evento é reunir entusiastas<br />
+            nos campos de inovação e de tecnologia, <br />
+            áreas essas criadas nas missões espaciais <br />
+            da NASA, apresentando uma reflexão sobre <br />
+            as profissões do futuro e o mercado de trabalho.
+          </p>
+        </article>
+        <div class="astrounauta">
+          <img class="astrounaut pulsate-bck" src="imgs/astrou.png" />
+        </div>
+      </div>
+      <div class="conometro">
+        <h2>Contagem Regressiva Para o Evento</h2>
+        <div class="countdown container">
+          <div class="time">
+            <p>Dias</p>
+            <h3 id="days">00</h3>
+          </div>
+          <div class="time">
+            <p>Horas</p>
+            <h3 id="hours">00</h3>
+          </div>
+          <div class="time">
+            <p>Minutos</p>
+            <h3 id="minutes">00</h3>
+          </div>
+          <div class="time">
+            <p>Segundos</p>
+            <h3 id="seconds">00</h3>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="couwt.js"></script>
   </header>
   <!--NAVBAR-->
 

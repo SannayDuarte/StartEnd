@@ -1,7 +1,7 @@
 body {
-  background: url(plan.png) no-repeat center center/cover;
-  color: black;
-  background-color: rgba(0, 0, 0, 0.507);
+  background: url(imgs/plan.png) no-repeat center center/cover;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.582);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -10,35 +10,73 @@ h2 {
   color: white;
   text-align: center;
 }
-h3,
-h4,
-h5,
-h6,
-p,
-li {
+.nav {
+  background-color: black;
+}
+.nav-link {
   color: white;
 }
-.logotipo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#logo {
+  width: 10rem;
+  height: 4rem;
 }
-.logo {
-  padding: 30px;
-  width: 50rem;
-  height: 25rem;
+.entrada {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
 }
-.principal {
-  display: inline;
-  justify-content: center;
-  align-items: center;
+.intro {
+  padding: 4rem;
 }
 .introducao {
-  font-size: 2rem;
-  height: 16rem;
-}
-article {
   text-align: center;
+  font-size: 1.6rem;
+}
+.pulsate-bck {
+  height: 28rem;
+  -webkit-animation: pulsate-bck 0.8s infinite;
+  animation: pulsate-bck 0.8s infinite;
+}
+.countdown {
+  display: grid;
+  grid-template-columns: 8% 8% 8% 10%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.6rem;
+  grid-gap: 5px;
+}
+
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@media (max-width: 500px) {
 }
 .titulo {
   font-size: 1.8rem;

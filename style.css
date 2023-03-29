@@ -10,7 +10,6 @@ h2 {
   color: white;
   text-align: center;
 }
-
 .nav {
   background-color: black;
 }
@@ -49,8 +48,7 @@ h2 {
   grid-gap: 5px;
 }
 
-@media (max-width: 500px) {
-}
+
 
 @-webkit-keyframes pulsate-bck {
   0% {
@@ -79,4 +77,6 @@ h2 {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+}
+@media (max-width: 500px) {
 }
