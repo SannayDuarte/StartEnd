@@ -100,11 +100,6 @@ main {
 }
 
 @media (max-width: 500px) {
-  .logo {
-    padding: 30px;
-    width: 20rem;
-    height: 15rem;
-  }
   h2 {
     font-size: 1.3rem;
   }
@@ -113,36 +108,36 @@ main {
     grid-gap: 20px;
   }
   .intro {
-    padding: 2rem;
+    padding: 1.5rem;
   }
   .introducao {
     text-align: center;
     font-size: 1rem;
   }
   .pulsate-bck {
-    height: 28rem;
+    height: 26rem;
     -webkit-animation: pulsate-bck 0.8s infinite;
     animation: pulsate-bck 0.8s infinite;
   }
   .countdown {
     display: grid;
-    grid-template-columns: 8% 8% 8% 10%;
+    grid-template-columns: 15% 20% 30% 35%;
     justify-content: center;
     justify-items: center;
     align-items: center;
     text-align: center;
-    font-size: 1.6rem;
-    grid-gap: 5px;
+    font-size: 1rem;
+    grid-gap: 10px;
   }
   .eventos,
   .sebrae {
     width: 20rem;
   }
   .introducao {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .titulo {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .text {
     font-size: 1rem;
