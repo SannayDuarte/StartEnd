@@ -58,9 +58,21 @@ main {
   color: black;
   height: 10rem;
 }
+.btn-lua {
+  font-size: 2rem;
+  background: url(imgs/lua.jpg) no-repeat center center/cover;
+  color: black;
+  height: 10rem;
+}
+.btn-marte {
+  font-size: 2rem;
+  background: url(imgs/marte.jpg) no-repeat center center/cover;
+  color: black;
+  height: 10rem;
+}
 .inscreverse,
 .conometro {
-  padding: 6rem;
+  padding: 3rem;
 }
 .valores {
   display: grid;
