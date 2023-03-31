@@ -24,10 +24,6 @@ h2 {
 .entrada {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 20px;
-}
-.intro {
-  padding: 4rem;
 }
 .introducao {
   text-align: center;
@@ -63,7 +59,7 @@ main {
   height: 10rem;
 }
 .artig {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 @media (max-width: 500px) {
   .entrada {
@@ -91,6 +87,9 @@ main {
     text-align: center;
     font-size: 1rem;
     grid-gap: 5px;
+  }
+  .artig {
+    font-size: 1.2rem;
   }
 }
 @-webkit-keyframes pulsate-bck {
