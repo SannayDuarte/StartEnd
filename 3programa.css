@@ -1,14 +1,15 @@
 body {
   background: url(imgs/plan.png) no-repeat center center/cover;
   color: white;
-  background-color: rgba(0, 0, 0, 0.582);
+  background-color: rgba(0, 0, 0, 0.938);
   height: 100%;
   width: 100%;
   margin: 0;
-}
-h2 {
-  color: white;
   text-align: center;
+}
+p,
+a {
+  color: white;
 }
 .nav {
   background-color: black;
@@ -47,7 +48,58 @@ h2 {
   font-size: 1.6rem;
   grid-gap: 5px;
 }
+header,
+main {
+  background-color: rgba(0, 0, 0, 0.822);
+}
+.btn {
+  font-size: 2rem;
+  background: url(imgs/nave.png) no-repeat center center/cover;
+  color: black;
+  height: 10rem;
+}
+.inscreverse,
+.conometro {
+  padding: 6rem;
+}
 
+.titulo {
+  font-size: 1.8rem;
+}
+.text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.accordion-item,
+.card {
+  background-color: black;
+}
+
+.palestrantes {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  grid-gap: 10px;
+}
+.card {
+  width: 20rem;
+  height: 30rem;
+}
+.img-pales {
+  height: 16rem;
+}
+.localiza {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+.dadosLocal {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.904);
+  font-size: 1.2rem;
+}
 @-webkit-keyframes pulsate-bck {
   0% {
     -webkit-transform: scale(1);
@@ -76,40 +128,6 @@ h2 {
     transform: scale(1);
   }
 }
-@media (max-width: 500px) {
-}
-.titulo {
-  font-size: 1.8rem;
-}
-.text {
-  font-size: 1.5rem;
-  text-align: center;
-}
-.palestrantes {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-  grid-gap: 10px;
-}
-.card {
-  width: 20rem;
-  height: 28rem;
-}
-.img-pales {
-  height: 18rem;
-}
-.localiza {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 20px;
-}
-.dadosLocal {
-  text-align: center;
-  font-size: 1.2rem;
-}
-
 @media (max-width: 500px) {
   .logo {
     padding: 30px;
