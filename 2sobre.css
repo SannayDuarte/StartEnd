@@ -1,7 +1,8 @@
 body {
   background: url(imgs/plan.png) no-repeat center center/cover;
   color: white;
-  background-color: rgba(0, 0, 0, 0.582);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.822);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -47,7 +48,51 @@ h2 {
   font-size: 1.6rem;
   grid-gap: 5px;
 }
-
+p,
+a {
+  color: white;
+}
+header,
+main {
+  background-color: rgba(0, 0, 0, 0.822);
+}
+.btn {
+  font-size: 2rem;
+  background: url(imgs/nave.png) no-repeat center center/cover;
+  color: black;
+  height: 10rem;
+}
+.artig {
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .entrada {
+    display: inline;
+    grid-gap: 10px;
+  }
+  .intro {
+    padding: 2rem;
+  }
+  .introducao {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .pulsate-bck {
+    height: 26rem;
+    -webkit-animation: pulsate-bck 0.8s infinite;
+    animation: pulsate-bck 0.8s infinite;
+  }
+  .countdown {
+    display: grid;
+    grid-template-columns: 8% 8% 8% 10%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    grid-gap: 5px;
+  }
+}
 @-webkit-keyframes pulsate-bck {
   0% {
     -webkit-transform: scale(1);
@@ -75,6 +120,4 @@ h2 {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
-}
-@media (max-width: 500px) {
 }
