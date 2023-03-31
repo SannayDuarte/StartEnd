@@ -62,7 +62,6 @@ main {
 .conometro {
   padding: 6rem;
 }
-
 .titulo {
   font-size: 1.8rem;
 }
@@ -74,7 +73,6 @@ main {
 .card {
   background-color: black;
 }
-
 .palestrantes {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -100,34 +98,7 @@ main {
   background-color: rgba(0, 0, 0, 0.904);
   font-size: 1.2rem;
 }
-@-webkit-keyframes pulsate-bck {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes pulsate-bck {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
+
 @media (max-width: 500px) {
   .logo {
     padding: 30px;
@@ -136,6 +107,32 @@ main {
   }
   h2 {
     font-size: 1.3rem;
+  }
+  .entrada {
+    display: inline;
+    grid-gap: 20px;
+  }
+  .intro {
+    padding: 2rem;
+  }
+  .introducao {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .pulsate-bck {
+    height: 28rem;
+    -webkit-animation: pulsate-bck 0.8s infinite;
+    animation: pulsate-bck 0.8s infinite;
+  }
+  .countdown {
+    display: grid;
+    grid-template-columns: 8% 8% 8% 10%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+    grid-gap: 5px;
   }
   .eventos,
   .sebrae {
@@ -177,5 +174,33 @@ main {
   .dadosLocal {
     text-align: center;
     font-size: 1.2rem;
+  }
+}
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
