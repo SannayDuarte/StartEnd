@@ -1,7 +1,7 @@
 body {
   background: url(imgs/plan.png) no-repeat center center/cover;
   color: white;
-  background-color: rgba(0, 0, 0, 0.582);
+  background-color: rgba(0, 0, 0, 0.932);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -47,8 +47,19 @@ h2 {
   font-size: 1.6rem;
   grid-gap: 5px;
 }
-
-
+.conometro {
+  background-color: rgba(0, 0, 0, 0.849);
+}
+.conteudo {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.849);
+  width: 81rem;
+}
+.art {
+  display: grid;
+  grid-template-columns: auto auto;
+}
 
 @-webkit-keyframes pulsate-bck {
   0% {
@@ -79,4 +90,42 @@ h2 {
   }
 }
 @media (max-width: 500px) {
+  h2 {
+    font-size: 1.1rem;
+  }
+  .entrada {
+    display: inline;
+    grid-gap: 10px;
+  }
+  .intro {
+    padding: 2rem;
+  }
+  .introducao {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .pulsate-bck {
+    height: 25rem;
+    -webkit-animation: pulsate-bck 0.8s infinite;
+    animation: pulsate-bck 0.8s infinite;
+  }
+  .countdown {
+    display: grid;
+    grid-template-columns: 10% 15% 16% 20%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    grid-gap: 5px;
+  }
+  .conteudo {
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.89);
+    width: 80%;
+  }
+  .art {
+    display: inline;
+  }
 }
