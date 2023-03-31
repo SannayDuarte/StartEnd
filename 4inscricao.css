@@ -58,6 +58,10 @@ main {
   color: black;
   height: 10rem;
 }
+.inscreverse,
+.conometro {
+  padding: 3rem;
+}
 .btn-lua {
   font-size: 2rem;
   background: url(imgs/lua.jpg) no-repeat center center/cover;
@@ -70,10 +74,7 @@ main {
   color: black;
   height: 10rem;
 }
-.inscreverse,
-.conometro {
-  padding: 3rem;
-}
+
 .valores {
   display: grid;
   grid-template-columns: 18% 18% 18% 18% 18% 18%;

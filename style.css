@@ -4,11 +4,11 @@ body {
   background-color: rgba(0, 0, 0, 0.932);
   height: 100%;
   width: 100%;
+  text-align: center;
   margin: 0;
 }
-h2 {
+a {
   color: white;
-  text-align: center;
 }
 .nav {
   background-color: black;
@@ -47,14 +47,9 @@ h2 {
   font-size: 1.6rem;
   grid-gap: 5px;
 }
-.conometro {
-  background-color: rgba(0, 0, 0, 0.849);
-}
 .conteudo {
   text-align: center;
   font-size: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.849);
-  width: 79.5rem;
 }
 .art {
   display: grid;
@@ -69,6 +64,10 @@ main {
   background: url(imgs/nave.png) no-repeat center center/cover;
   color: black;
   height: 10rem;
+}
+.inscreverse,
+.conometro {
+  padding: 3rem;
 }
 
 @-webkit-keyframes pulsate-bck {
