@@ -108,7 +108,7 @@ main {
   }
   .entrada {
     display: inline;
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
   .intro {
     padding: 2rem;
@@ -118,27 +118,29 @@ main {
     font-size: 1rem;
   }
   .pulsate-bck {
-    height: 25rem;
+    height: 26rem;
     -webkit-animation: pulsate-bck 0.8s infinite;
     animation: pulsate-bck 0.8s infinite;
   }
   .countdown {
     display: grid;
-    grid-template-columns: 10% 15% 16% 20%;
+    grid-template-columns: 15% 15% 20% 25%;
     justify-content: center;
     justify-items: center;
     align-items: center;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     grid-gap: 5px;
   }
   .conteudo {
     text-align: center;
     font-size: 1rem;
-    background-color: rgba(0, 0, 0, 0.89);
-    width: 80%;
   }
   .art {
     display: inline;
+  }
+  .img-art {
+    width: 28rem;
+    height: 18rem;
   }
 }

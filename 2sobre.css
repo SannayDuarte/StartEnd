@@ -76,7 +76,7 @@ main {
 @media (max-width: 500px) {
   .entrada {
     display: inline;
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
   .intro {
     padding: 2rem;
@@ -92,16 +92,31 @@ main {
   }
   .countdown {
     display: grid;
-    grid-template-columns: 8% 8% 8% 10%;
+    grid-template-columns: 15% 15% 20% 25%;
     justify-content: center;
     justify-items: center;
     align-items: center;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     grid-gap: 5px;
   }
+  header,
+  main {
+    background-color: rgba(0, 0, 0, 0.822);
+  }
+  .inscreverse,
+  .conometro {
+    padding: 4rem;
+  }
   .artig {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+  .art {
+    display: inline;
+  }
+  .img-art {
+    width: 25rem;
+    height: 20rem;
   }
 }
 @-webkit-keyframes pulsate-bck {

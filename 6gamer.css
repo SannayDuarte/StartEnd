@@ -97,4 +97,55 @@ main {
   }
 }
 @media (max-width: 500px) {
+  .entrada {
+    display: inline;
+    grid-gap: 20px;
+  }
+  .intro {
+    padding: 2rem;
+  }
+  .introducao {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .pulsate-bck {
+    height: 26rem;
+    -webkit-animation: pulsate-bck 0.8s infinite;
+    animation: pulsate-bck 0.8s infinite;
+  }
+  .countdown {
+    display: grid;
+    grid-template-columns: 15% 20% 28% 30%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    grid-gap: 5px;
+  }
+  header,
+  main {
+    background-color: rgba(0, 0, 0, 0.822);
+  }
+  .btn {
+    font-size: 1rem;
+    background: url(imgs/nave.png) no-repeat center center/cover;
+    color: black;
+    height: 10rem;
+  }
+  .inscreverse,
+  .conometro {
+    padding: 3rem;
+  }
+  .img-art {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .gamer-text {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
 }

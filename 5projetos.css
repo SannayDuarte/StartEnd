@@ -91,4 +91,33 @@ main {
   }
 }
 @media (max-width: 500px) {
+  .entrada {
+    display: inline;
+    grid-gap: 20px;
+  }
+  .intro {
+    padding: 2rem;
+  }
+  .introducao {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .pulsate-bck {
+    height: 26rem;
+    -webkit-animation: pulsate-bck 0.8s infinite;
+    animation: pulsate-bck 0.8s infinite;
+  }
+  .countdown {
+    display: grid;
+    grid-template-columns: 18% 18% 28% 35%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    grid-gap: 5px;
+  }
+  .img-proj {
+    width: 100%;
+  }
 }

@@ -83,37 +83,6 @@ form {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-@-webkit-keyframes pulsate-bck {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes pulsate-bck {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@media (max-width: 500px) {
-}
-
 .flip-container {
   padding: 3%;
   padding-left: 3px;
@@ -149,4 +118,67 @@ form {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+}
+
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@media (max-width: 500px) {
+  .entrada {
+    display: inline;
+    grid-gap: 20px;
+  }
+  .intro {
+    padding: 2rem;
+  }
+  .introducao {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .pulsate-bck {
+    height: 26rem;
+    -webkit-animation: pulsate-bck 0.8s infinite;
+    animation: pulsate-bck 0.8s infinite;
+  }
+  .countdown {
+    display: grid;
+    grid-template-columns: 15% 15% 25% 30%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    grid-gap: 5px;
+  }
+  .valores {
+    display: inline;
+  }
+  form {
+    display: inline;
+  }
 }
