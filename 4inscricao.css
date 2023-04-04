@@ -64,13 +64,13 @@ main {
 }
 .btn-lua {
   font-size: 2rem;
-  background: url(imgs/lua.jpg) no-repeat center center/cover;
+  background: url(imgs/lua.png) no-repeat center center/cover;
   color: black;
   height: 10rem;
 }
 .btn-marte {
   font-size: 2rem;
-  background: url(imgs/marte.jpg) no-repeat center center/cover;
+  background: url(imgs/marte.png) no-repeat center center/cover;
   color: black;
   height: 10rem;
 }
@@ -79,7 +79,10 @@ main {
   display: grid;
   grid-template-columns: 18% 18% 18% 18% 18% 18%;
 }
-
+form {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 @-webkit-keyframes pulsate-bck {
   0% {
     -webkit-transform: scale(1);
