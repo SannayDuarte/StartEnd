@@ -63,6 +63,15 @@ h2 {
 .conometro {
   padding: 3rem;
 }
+.img-art {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 10px 0px 24rem;
+  width: 50rem;
+}
 
 @-webkit-keyframes pulsate-bck {
   0% {
@@ -119,7 +128,13 @@ h2 {
     font-size: 1.2rem;
     grid-gap: 5px;
   }
-  .img-proj {
+  .img-art {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10px 0px 0rem;
     width: 100%;
   }
 }

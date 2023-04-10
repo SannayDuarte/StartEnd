@@ -182,4 +182,7 @@ form {
   form {
     display: inline;
   }
+  .onu {
+    width: 20rem;
+  }
 }
