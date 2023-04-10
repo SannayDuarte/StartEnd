@@ -56,7 +56,8 @@ a {
   grid-template-columns: auto auto;
 }
 header,
-main {
+main,
+.prin {
   background-color: rgba(0, 0, 0, 0.822);
 }
 .btn {
@@ -124,7 +125,7 @@ main {
   }
   .countdown {
     display: grid;
-    grid-template-columns: 15% 15% 20% 25%;
+    grid-template-columns: 25% 25% 25% 35%;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -140,7 +141,7 @@ main {
     display: inline;
   }
   .img-art {
-    width: 28rem;
+    width: 24rem;
     height: 18rem;
   }
 }
