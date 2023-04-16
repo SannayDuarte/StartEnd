@@ -94,7 +94,7 @@ a {
   }
   .countdown {
     display: grid;
-    grid-template-columns: 15% 15% 20% 25%;
+    grid-template-columns: 30% 30% 30% 40%;
     justify-content: center;
     justify-items: center;
     align-items: center;
