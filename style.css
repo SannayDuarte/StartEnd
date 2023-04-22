@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@100 & display=swap');
 body {
   background: url(imgs/plan.png) no-repeat center center/cover;
   color: white;
@@ -6,6 +7,7 @@ body {
   width: 100%;
   text-align: center;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   color: white;
@@ -49,7 +51,7 @@ a {
 }
 .conteudo {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 21px;
 }
 .art {
   display: grid;
@@ -71,8 +73,8 @@ main,
   padding: 3rem;
 }
 .img-art {
-  width: 28rem;
-  height: 18rem;
+  width: 22rem;
+  height: 16rem;
 }
 
 @-webkit-keyframes pulsate-bck {

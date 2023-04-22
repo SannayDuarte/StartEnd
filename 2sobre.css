@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@100 & display=swap');
 body {
   background: url(imgs/plan.png) no-repeat center center/cover;
   color: white;
-  background-color: rgba(0, 0, 0, 0.938);
+  background-color: rgba(0, 0, 0, 0.932);
   height: 100%;
   width: 100%;
-  margin: 0;
   text-align: center;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 header,
 main,
