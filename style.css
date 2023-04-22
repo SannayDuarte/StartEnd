@@ -41,7 +41,7 @@ a {
 }
 .countdown {
   display: grid;
-  grid-template-columns: 8% 8% 10% 10%;
+  grid-template-columns: 8% 8% 10% 12%;
   justify-content: center;
   justify-items: center;
   align-items: center;
