@@ -18,6 +18,9 @@ p,
 a {
   color: white;
 }
+h5 {
+  color: rgb(28, 28, 104);
+}
 .nav {
   background-color: black;
 }
