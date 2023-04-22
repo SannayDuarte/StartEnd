@@ -3,7 +3,7 @@ const hoursText = document.querySelector('#hours');
 const minutesText = document.querySelector('#minutes');
 const secondsText = document.querySelector('#seconds');
 
-const newYearsDate = new Date('20 April 2023');
+const newYearsDate = new Date('05 July 2023');
 
 setInterval(countdown, 1000);
 
