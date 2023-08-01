@@ -119,13 +119,33 @@ Prepare-se para uma emocionante jornada em Trilha do Aprendiz, um jogo de<br>
         
       </div>
       <br>
-      <a href="#">
+      <a href="https://www.mediafire.com/file/l6tv2vwl9pgz11r/Trilha_do_Aprendiz.rar/file">
         <p class="btn-jg btn-outline-primary btn-lg">JOGAR</p>
       </a> 
-      <p>Instruçoes: Quando executar o jogo coloque em <br>
-        Screen Resolution = 1760x990 e clique em Windowed.<br>
-        Veja o eexemplo:
+      <p class="instruçoes"> 
+        É necessario descompactar o arquivo para executar ele em seu computador, 
+        apos isso entre na pasta DemoTrilha do Aprendiz e coloque as configuraçoes:<br>
+        Screen Resolution = 1760x990 e clique em Windowed, de playr.<br>
+        <div class="btn-out" for="btn-check-outlined" onclick="abrirModal()">Clique para ver o exemplo:</div>
+      <div id="modal-termo" class="modal-container  modal-dialog-centered modal-dialog-scrollable">
+          <div class="termo">
+            <img src="imgs/exe.png" alt="gamer startendexp" class="img-art-m" />
+          </div>
+          <script>
+              function abrirModal() {
+                  const modal = document.getElementById("modal-termo")
+                  modal.classList.add("mostrar")
+
+                  modal.addEventListener("click", (e) => {
+                      if (e.target.id == "modal-termo" || e.target.className == "fechar") {
+                          modal.classList.remove("mostrar");
+                      }
+                  });
+              }
+          </script>
+      </div>
       </p>
+      
       <br>
  </div>
   </main>
