@@ -77,21 +77,7 @@ a {
 .card {
   background-color: black;
 }
-.palestrantes {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-  grid-gap: 10px;
-}
-.card {
-  width: 20rem;
-  height: 32rem;
-}
-.img-pales {
-  height: 16rem;
-}
+
 .localiza {
   display: grid;
   grid-template-columns: auto auto;
@@ -146,21 +132,7 @@ a {
   .text {
     font-size: 1rem;
   }
-  .palestrantes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    grid-gap: 10px;
-  }
-  .card {
-    width: 20rem;
-    height: 30rem;
-  }
-  .img-pales {
-    height: 16rem;
-  }
+ 
   .localiza {
     display: flex;
     flex-direction: column;
