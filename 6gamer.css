@@ -38,6 +38,10 @@ a, p, .nav-link{
   -webkit-animation: pulsate-bck 0.8s infinite;
   animation: pulsate-bck 0.8s infinite;
 }
+.img-icons{
+  height: 2rem;
+  width: 2rem;
+}
 
 
 .glow-on-hover {

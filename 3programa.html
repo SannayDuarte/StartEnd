@@ -8,289 +8,93 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="3programa.css">
-  <title>Pagina Inicial</title>
+  <title>Agenda</title>
 </head>
 
-<body class="prin">
-   <!--NAVBAR-->
-   <header>
+<body>
+     <!--NAVBAR-->
+  <header>
     <nav class="navbar navbar-expand-lg nav">
-      <div class=" container-fluid">
-        <img id="logo" src="imgs/start.jpg" />
-        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Pagina_Inicial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="2sobre.html">Sobre_Nos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="6gamer.html">Jogo_TrilhaDoAprendiz</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="4inscricao.html">Fazer_Inscriçao</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="5projetos.html">Conheça_Nossos_Projetos</a>
-          </li>
+      <div class="cont container">
+        <div class=" container-fluid">
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img id="logo" src="imgs/start.jpg" />
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Pagina_Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="4inscricao.html">Fazer_Inscriçao</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="2sobre.html">Sobre_Nos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="6gamer.html">Jogo_TrilhaDoAprendiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="5projetos.html">Nossos_Projetos</a>
+            </li>
+            
+          </ul>
 
-        </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://instagram.com/startendexp?igshid=MzRlODBiNWFlZA==">
+          <img class="img-icons" src="imgs/instagram.png" />
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/start-end-experience-a540b2266">
+          <img class="img-icons" src="imgs/linkedin.png" />
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+
+         </div>
+
+
       </div>
-    </nav> 
-    <div class="entrada">
+    </nav>
+    <div class="entrada container">
       <article class="intro">
-        <p class="introducao">
-         <h2>Bem vindo ao Start_End.</h2>
-        </p>
+        <h1>START_END</h1>
+        <h2 class="introducao">
+          Seja muito bem-vindo a esta emocionante aventura!
+          Estamos cheios de entusiasmo por tê-lo conosco, e<br>
+          mal podemos esperar para compartilhar momentos <br>
+          inesquecíveis. Nossa maior aspiração é proporcionar
+          a você uma experiência ministrativa maravilhosa,
+          repleta não apenas de conhecimento enriquecedor,
+          mas também de surpresas.</h2>
       </article>
+
       <div class="astrounauta">
         <img class="astrounaut pulsate-bck" src="imgs/astrou.png" />
       </div>
+
     </div>
-    <!--NAVBAR
-    <aside class="detalhes container">
-      <div class="entrada">
-        <article class="intro">
-          <h2>Experiência de três dias com palestras,<br>atividades e workshops.</h2>
-          <p class="introducao">
-            O objetivo deste evento é reunir entusiastas<br />
-            nos campos de inovação e de tecnologia, <br />
-            áreas essas criadas nas missões espaciais <br />
-            da NASA, apresentando uma reflexão sobre <br />
-            as profissões do futuro e o mercado de trabalho.
-          </p>
-        </article>
-        <div class="astrounauta">
-          <img class="astrounaut pulsate-bck" src="imgs/astrou.png" />
-        </div>
-      </div>
-      <div class="conometro">
-        <h2>Contagem Regressiva Para o Evento</h2>
-        <div class="countdown container">
-          <div class="time">
-            <p>Dias</p>
-            <h3 id="days">00</h3>
-          </div>
-          <div class="time">
-            <p>Horas</p>
-            <h3 id="hours">00</h3>
-          </div>
-          <div class="time">
-            <p>Minutos</p>
-            <h3 id="minutes">00</h3>
-          </div>
-          <div class="time">
-            <p>Segundos</p>
-            <h3 id="seconds">00</h3>
-          </div>
-        </div>
-      </div>
-    </aside>
-    <script src="couwt.js"></script>-->
   </header>
   <!--NAVBAR-->
 
   <!--Conteudo-->
   <main class="principal">
-    <div class="eventos container">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" style="background: black;" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <p class="titulo">Primeiro Dia 20/04</p>
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p class="text">
-              <h5>MANHÃ – ON/LINE</h5>
-
-              <strong>9h30 - 10h15</strong> Lançamento da Missão Start End Experience 3.0 Prof. Erick Mattos<br><br>
-
-              <strong>10h15 – 11:30</strong> Apresentação Parceiros SENAC E OUTROS<br><br>
-
-              <h5>TARDE - PRESENCIAL</h5>
-
-              <strong> 14h00 – 14h15</strong>Abertura dos trabalhos<br><br>
-
-              <strong>14h15 – 14h30 </strong> Bate Papo com Parceiros e Convidados<br><br>
-
-              <strong>14h30 – 15h30</strong> Apresentação das 04 Equipes<br><br>
-
-              <strong>15h30 – 15h50</strong> Coffe Break e interação<br><br>
-
-              <strong>15h50 – 16:30 </strong> Exposição de Games<br><br>
-
-              <strong>16h30 – 17-00</strong>Encerramento dos Trabalhos
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" style="background: black;" type="button"
-              data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <p class="titulo">Segundo Dia 21/04</p>
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p class="text">
-                Em breve
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" style="background: black;" type="button"
-              data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-              aria-controls="collapseThree">
-              <p class="titulo">Terceiro Dia 22/04</p>
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p class="text">
-                Em breve
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h3>Em breve novidades</h3>
     <div class="inscreverse">
       <h2>Vamos embarcar nessa viagem?!</h2>
       <button class="btn"><a href="4inscricao.html">Inscrever-se</a></button>
     </div>
 
-    <div class="palestrantes container">
-      <div class="card">
-        <img src="imgs/pal.erick.jpeg" class="card-img-top img-pales" alt="...">
-        <div class="card-body">
-          <h4>Erick Matos</h4>
-          <p class="card-text">
-            Administrador, Especialista em Comércio Exterior e Tecnólogo em Logística Empresarial,
-            Consultor de Negócios onde inspira clientes nas áreas
-            de gestão, tecnologia e inovação.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="imgs/pal.helen.jpeg" class="card-img-top img-pales" alt="...">
-        <div class="card-body">
-          <h4>Helen Araujo</h4>
-          <p class="card-text">
-            Advogada e Empreendedora cofundadora da Trilha do Aprendiz
-            startup que aborda a lei da Aprendizagem, ECA,
-            LGPD e Direito Digital.
-            Atuo com assessoria jurídica para empresas e pessoas que buscam segurança nos processos
-            frente ao novo mercado digital na advogacia 5.0.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="imgs/pal.claudio.jpeg" class="card-img-top img-pales" alt="...">
-        <div class="card-body">
-          <h4>Claudio Dias</h4>
-          <p class="card-text">
-            Curador do Game Retrô AM; Professor; Bacharel em Direito; Técnico em Informática; Músico; DJ e Empresário.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="imgs/pal.Thiago.jpeg" class="card-img-top img-pales" alt="...">
-        <div class="card-body">
-          <h4>Thiago Teles de Andrade</h4>
-          <p class="card-text">
-            - CEO DRIVETHRU AMBIENTAL -
-            É administrador, gestor ambiental e consultor ESG apaixonado pelo impacto
-            posito real que pequenas mudanças podem causar na vida de pessoas.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="imgs/pal.julio.jpeg" class="card-img-top img-pales" alt="...">
-        <div class="card-body">
-          <h4>Julio Cesar</h4>
-          <p class="card-text">
-            Jovem Empreendedor e Design Gráfico apaixonado por pixelArts e games.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="imgs/pal.karen.jpeg" class="card-img-top img-pales" alt="...">
-        <div class="card-body">
-          <h4>Karen Trovão</h4>
-          <p class="card-text">
-            Administradora Especialista, representante
-            regional do Conselho de Administração -CRA/AM.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="imgs/pal.veronica.jpeg" class="card-img-top img-pales" alt="...">
-        <div class="card-body">
-          <h4>Veronica Marques</h4>
-          <p class="card-text">
-            Empreendedora e Chef Gastronômica Especialista em Marketing
-            Digital e Gestão de Pessoas;
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="imgs/pal.sannay.jpeg" class="card-img-top img-pales" alt="...">
-        <div class="card-body">
-          <h4>Sannay Duarte</h4>
-          <p class="card-text">
-            Desenvolvedora FULL STACK entusiasta de game e artes digitais.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="inscreverse">
-      <h2>Vamos embarcar nessa viagem?!</h2>
-      <button class="btn"><a href="4inscricao.html">Inscrever-se</a></button>
-    </div>
-
-    <div class="local container">
-      <h2>Local</h2>
-      <section class="grid-section localiza" data-anime=" js-scroll " id=" contato ">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3983.881583522116!2d-60.023214!3d-3.125999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c056234862ce9%3A0x3109843baafda164!2sAv.%20Leonardo%20Malcher%2C%20904%20-%20Centro%2C%20Manaus%20-%20AM%2C%2069020-070!5e0!3m2!1spt-BR!2sbr!4v1679090048528!5m2!1spt-BR!2sbr"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade" class="sebrae">
-        </iframe>
-        <div class="dadosLocal sebrae">
-          <h4>SebraeLab Amazonas</h4>
-          <p>
-            Um ambiente multifuncional, com pegada colaborativa,<br>
-            pensado para empreendedores inovadores e transformadores.<br>
-            Um lugar para viver, conviver e se apropriar. Um espaço<br>
-            baseado no conceito de serendipity: onde as descobertas<br>
-            ao acaso fazem toda a diferença.<br>
-            Onibus que passam proximo ao SebraeLab<br>
-            As linhas abaixo têm rotas que passam perto de Ponto de <br>
-            ônibus em frente ao SebraeLab: 120, 219, 439, 442, 560, <br>
-            640, 002, 203, 205, 207, 209, 214, 223, 227, 305, 315, <br>
-            403, 422, 427, 439, 440, 443, 447, 535, 600. Para maiores <br>
-            informações de como chegar ate o local por favor entre no <br>
-            mapa ao lado e veja a sua rota.
-          </p>
-        </div>
-      </section>
-    </div>
+   
   </main>
   <!--Conteudo-->
 

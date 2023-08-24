@@ -1,28 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 body {
   background: url(imgs/plan.png) no-repeat center center/cover;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.932);
+  color: rgb(235, 235, 235);
   height: 100%;
   width: 100%;
   text-align: center;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
-header,
-main,
-.prin {
-  background-color: rgba(0, 0, 0, 0.822);
+header, main, .inscreverse-jg{ 
+  background-color: rgba(0, 0, 0, 0.582);
 }
-h2 {
-  color: white;
-  text-align: center;
+a, p, .nav-link{
+  color: rgb(235, 235, 235);
 }
 .nav {
   background-color: black;
-}
-.nav-link {
-  color: white;
 }
 #logo {
   width: 10rem;
@@ -45,15 +38,9 @@ h2 {
   -webkit-animation: pulsate-bck 0.8s infinite;
   animation: pulsate-bck 0.8s infinite;
 }
-.countdown {
-  display: grid;
-  grid-template-columns: 8% 8% 8% 10%;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  font-size: 1.6rem;
-  grid-gap: 5px;
+.img-icons{
+  height: 2rem;
+  width: 2rem;
 }
 
 .btn {

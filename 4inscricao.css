@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 body {
-  background: url(imgs/panoramica-nocturna-galaxias.jpg) no-repeat center center/cover;
+  background: url(imgs/plan.png) no-repeat center center/cover;
   color: rgb(235, 235, 235);
   height: 100%;
   width: 100%;
@@ -8,11 +8,8 @@ body {
   margin: 0;
   font-family: 'Oswald', sans-serif;
 }
-header, main{ 
+header, main, .inscreverse-jg{ 
   background-color: rgba(0, 0, 0, 0.582);
- } 
-main, section{
-  padding: 5.5rem;
 }
 a, p, .nav-link{
   color: rgb(235, 235, 235);
@@ -40,6 +37,10 @@ a, p, .nav-link{
   height: 28rem;
   -webkit-animation: pulsate-bck 0.8s infinite;
   animation: pulsate-bck 0.8s infinite;
+}
+.img-icons{
+  height: 2rem;
+  width: 2rem;
 }
 
 .valores {
