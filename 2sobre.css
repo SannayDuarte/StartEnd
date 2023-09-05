@@ -289,8 +289,8 @@ padding: 3rem;
     border-bottom-style: dotted;
     border-color: #505050;
     justify-content: center;
-  align-items: center;
-  justify-items: center;
+    align-items: center;
+    justify-items: center;
   }
   .img-pales{
     border-radius: 60%;
@@ -307,9 +307,8 @@ padding: 3rem;
   }
   .tes{
   display: inline;
-  padding: 3rem;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
+  }
+  .ul{
+ display: none;
   }
 }
