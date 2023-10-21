@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Share+Tech+Mono&display=swap');
 
 body {
   background: url(imgs/plan.png) no-repeat center center/cover;
@@ -43,6 +43,26 @@ a, p, .nav-link{
   width: 2rem;
 }
 /* ESTILO DAS ESPECIALIDADES */
+.tes{
+display: grid;
+grid-template-columns: 50% 40%;
+padding: 2px;
+}
+.conteudo{
+  text-align: center;
+  font-size: 21px;
+}
+.inscrevers{
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin: 0 0 0 12rem;
+  padding: 5rem;
+}
+.ins{
+  border: solid;
+  border-color: #fff;
+}
 .flex{
    display: grid;
   grid-template-columns: auto auto auto;
@@ -50,11 +70,9 @@ a, p, .nav-link{
 section.especiliadades {
   padding: 40px 4%;
 }
-
 section.especiliadades .flex {
   gap: 60px;
 }
-
 .especiliadades .especialidades-box {
   color: #fff;
   padding: 40px;
@@ -62,17 +80,14 @@ section.especiliadades .flex {
   margin-top: 45px;
   transition: .2s;
 }
-
 .especiliadades .especialidades-box:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px #ffffff78;
 }
-
 .especiliadades .especialidades-box i {
   font-size: 70px;
   color: #00FF08;
 }
-
 .especiliadades .especialidades-box h3 {
   font-size: 28px;
   margin: 15px 0;
@@ -126,16 +141,6 @@ section.especiliadades .flex {
   border-radius: 10px;
 }
 
-.conteudo, .inscreverse {
-  padding: 2rem;
-  text-align: center;
-  font-size: 21px;
-}
-.tes{
-display: grid;
-grid-template-columns: 50% 40%;
-padding: 2px;
-}
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }

@@ -24,7 +24,6 @@ a, p, .nav-link{
 .entrada {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 20px;
 }
 .intro {
   padding: 4rem;
@@ -42,7 +41,7 @@ a, p, .nav-link{
   height: 2rem;
   width: 2rem;
 }
-
+/* ESTILO DAS ESPECIALIDADES */
 .valores {
   display: grid;
   grid-template-columns: 22% 22% 22% 22% 22%;
