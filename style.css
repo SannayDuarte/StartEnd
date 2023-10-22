@@ -87,11 +87,13 @@ padding: 2px;
   text-align: center;
   width: 80%;
   margin: 0 0 0 12rem;
-  padding: 5rem;
+  padding: 5rem; 
+  
 }
 .ins{
   border: solid;
   border-color: #fff;
+ background-color: #000000b9;
 }
 
 .glow-on-hover {
