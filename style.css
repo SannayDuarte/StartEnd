@@ -43,28 +43,8 @@ a, p, .nav-link{
   width: 2rem;
 }
 /* ESTILO DAS ESPECIALIDADES */
-.tes{
-display: grid;
-grid-template-columns: 50% 40%;
-padding: 2px;
-}
-.conteudo{
-  text-align: center;
-  font-size: 21px;
-}
-.inscrevers{
-  display: flex;
-  text-align: center;
-  width: 80%;
-  margin: 0 0 0 12rem;
-  padding: 5rem;
-}
-.ins{
-  border: solid;
-  border-color: #fff;
-}
 .flex{
-   display: grid;
+   display: flex;
   grid-template-columns: auto auto auto;
 }
 section.especiliadades {
@@ -92,6 +72,28 @@ section.especiliadades .flex {
   font-size: 28px;
   margin: 15px 0;
 }
+
+.tes{
+display: grid;
+grid-template-columns: 50% 40%;
+padding: 2px;
+}
+.conteudo{
+  text-align: center;
+  font-size: 21px;
+}
+.inscrevers{
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin: 0 0 0 12rem;
+  padding: 5rem;
+}
+.ins{
+  border: solid;
+  border-color: #fff;
+}
+
 .glow-on-hover {
   width: 220px;
   height: 50px;
@@ -177,71 +179,44 @@ section.especiliadades .flex {
 
 
 @media (max-width: 450px) {
- .entrada {
+  .entrada {
     display: inline;
-    grid-gap: 20px;
-  }
-  .intro {
-    padding: 2rem;
   }
   .introducao {
     text-align: center;
-    font-size: 1rem;
-  }
-  .img-icons{
-    height: 1.5rem;
-    width: 1.5rem;
+    font-size: 16px;
   }
   .pulsate-bck {
-    height: 26rem;
+    height: 22rem;
     -webkit-animation: pulsate-bck 0.8s infinite;
     animation: pulsate-bck 0.8s infinite;
   }
-  .glow-on-hover {
-    width: 200px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
+  .flex{
+    display: inline;
   }
-  h2 {
-    font-size: 1.5rem;
-  }
-  h3 {
-    font-size: 1.2rem;
-  }
-  h4 {
-    font-size: 1.1rem;
-  }
-
   .tes{
-  display: inline;
-  padding: 3px;
-  margin:195rem 0 0  0 ;
-  }
-  .img-art-t{
-    border-radius: 100%;
-    height: 14rem;
-    width: 16rem;
-  }
-  .inscreverse{
     display: inline;
-    padding: 3rem;
-  }
-  .conteudo {
-    text-align: center;
-    font-size: 24px;
-  }
-  .art {
-    display: inline;
-  }
-  .img-art {
-    width: 24rem;
-    height: 18rem;
-  }
+    }
+    .conteudo{
+      text-align: center;
+      font-size: 18px;
+    }
+    .img-ind{
+      width: 22rem;
+    }
+    .inscrevers{
+     margin: 0 10rem 0  0 ;
+    }
+    .glow-on-hover {
+      width: 290px;
+      height: 50px;
+      border: none;
+      outline: none;
+      color: #fff;
+      background: #111;
+      cursor: pointer;
+      position: relative;
+      z-index: 0;
+      border-radius: 10px;
+    }
 }
